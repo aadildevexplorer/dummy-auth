@@ -7,8 +7,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
-  // to
-  // to login
+  // Login user
   const handleLogin = (e) => {
     e.preventDefault();
     const savedUser = JSON.parse(localStorage.getItem("user"));
